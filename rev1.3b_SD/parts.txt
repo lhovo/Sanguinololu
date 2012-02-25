@@ -30,7 +30,7 @@ FEMALE PIN HEADER, 16pin, qty4
 
 LED1     POWER            LED3MM                    LED3MM                 
 Y1       16MHz 22pF       RESONATORPTH              RESONATOR-PTH          
-S1       RESET            TAC_SWITCHPTH             TACTILE-PTH            
+S1       RESET            TACTILE_SWITCH_SMD        TACTILE_SWITCH_SMD            
 Q1       RFP30N06LE       MOSFET-NCHANNELPTH2       TO220V                 
 Q2       RFP30N06LE       MOSFET-NCHANNELPTH2       TO220V                 
 
@@ -52,10 +52,21 @@ R5       100k             RESISTORPTH1              AXIAL-0.3
 R6       10k              RESISTORPTH1              AXIAL-0.3              
 R7       100k             RESISTORPTH1              AXIAL-0.3              
 R8       100k             RESISTORPTH1              AXIAL-0.3              
-R9       4.7k             RESISTORPTH1              AXIAL-0.3              
-R10      4.7k             RESISTORPTH1              AXIAL-0.3              
+R9       4.7k             RESISTORPTH1              1206              
+R10      4.7k             RESISTORPTH1              1206              
 R11      10k              RESISTORPTH1              AXIAL-0.3              
-R12      100k             RESISTORPTH1              AXIAL-0.3              
+R12      100k             RESISTORPTH1              1206
+
+-----------SD CARD-----------
+MICRO-SD USD-SOCKETNEW    MICRO-SD-SOCKET-PP        MICRO-SD-SOCKET-PP
+S2       ENABLE           AYZ0202                   AYZ0202
+IC3      ADG3304BRUZ      TSSOP14                   ad74111_adg3304
+IC4      TPS73133DBVT     SOT95P280X145-5N          VREG 3V3
+
+-----------ADVANCE 5V SWITCH-----------
+D1       1N5819           DIODE-ZENER               DIODE-ZENER
+IC5      LTC4412ES6TRMPBF SOT95P280X100-6N          LTC4412ES6
+IC6      FDN306P          SOT23-3                   FDN306P
 
 
 
